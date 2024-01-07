@@ -15,7 +15,7 @@ fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8, 4), sharex=True, sharey=True)
 
 ax1.axis('off')
 ax1.imshow(image, cmap=plt.cm.gray)
-ax1.set_title('Input image')
+ax1.set_title('Input Image')
 ax1.set_adjustable('box')
 
 # nen thay doi ty le hinh anh

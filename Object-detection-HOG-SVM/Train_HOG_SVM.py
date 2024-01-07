@@ -26,8 +26,8 @@ pos_im_listing = os.listdir(pos_im_path) # đọc file ảnh người
 neg_im_listing = os.listdir(neg_im_path) # dọc file ảnh không phải người
 num_pos_samples = size(pos_im_listing) # neue toongr số hình ảnh
 num_neg_samples = size(neg_im_listing)
-print('so anh trong pos %d ' % num_pos_samples)  # in giá trị số mẫu ảnh trong pos
-print('so anh trong neg %d' % num_neg_samples) # in giá trị số mẫu trong neg
+print('so anh trong pos :%d ' % num_pos_samples)  # in giá trị số mẫu ảnh trong pos
+print('so anh trong neg :%d' % num_neg_samples) # in giá trị số mẫu trong neg
 data = []
 labels = []
 

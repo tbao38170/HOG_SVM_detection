@@ -87,7 +87,7 @@ cv2.imshow("phat hien ra NMS", img)
 save_dir ='image/save'
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
-save_path= os.path.join(save_dir, 'img_1.jpg')
+save_path= os.path.join(save_dir, 'img_4.jpg')
 cv2.imwrite(save_path,img)
 k =  cv2.waitKey(0) & 0xFF
 if k == 27:
