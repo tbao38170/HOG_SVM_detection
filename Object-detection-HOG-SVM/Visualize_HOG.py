@@ -4,8 +4,7 @@ from skimage.feature import hog
 from skimage import data, color, exposure
 from PIL import Image
 
-img = io.imread(r"image/positive/1.jpg")
-#im= Image.open(r"Insert\Image\Path\Here.jpg")
+img = io.imread(r"image/positive/9.jpg")
 image = color.rgb2gray(img)
 
 fd, hog_image = hog(image, orientations=8, pixels_per_cell=(16, 16),
