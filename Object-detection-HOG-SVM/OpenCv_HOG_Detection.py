@@ -25,10 +25,10 @@ hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 #path = 'video/istockphoto-1193707800-640_adpp_is.mp4'
 #path ='videoplayback.mp4'
 #path_1='video/park.mp4'
-path ='video/SaltCity2.mp4'
-cap= cv2.VideoCapture(path)
+path ='video/street.mp4'
+#cap= cv2.VideoCapture(path)
 #cap= cv2.VideoCapture(0)
-#path_Cam = 'http://10.16.21.0:8080/video'
+path_Cam = 'http://10.15.75.212:8080/video'
 #cap = cv2.VideoCapture(path_Cam)
 
 
